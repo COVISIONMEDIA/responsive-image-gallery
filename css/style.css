@@ -1,0 +1,113 @@
+html, body {
+    font-size: 15px;
+    font-family: verdana, sans-serif;
+    width: 100%;
+    height: 100%;
+
+}
+
+header {
+    width: 70%;
+    margin: 0 auto 50px auto;
+    border-bottom: solid 1px grey;
+
+}
+
+header img {
+    width: 30%;
+
+}
+
+h1 {
+    width: 70%;
+    margin: 0 auto;
+    color: black;
+    font-size: 24px;
+}
+
+p {
+    width: 70%;
+    margin: 50px auto 100px auto;
+}
+
+.coImages {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.coImage {
+    display: inline-block;
+}
+
+.coSubtitle {
+    font-size: 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+
+
+
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    header {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    header img {
+        width: 60%;
+
+    }
+
+    h1 {
+        width: 90%;
+    }
+
+    p {
+        width: 90%;
+    }
+
+    .coImages {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    header {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    header img {
+        width: 90%;
+
+    }
+
+    h1 {
+        width: 95%;
+    }
+
+    p {
+        width: 95%;
+    }
+
+    .coImages {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .coSubtitle {
+        font-size: 8px;
+        text-align: center;
+    }
+}
